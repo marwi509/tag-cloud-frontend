@@ -1,1 +1,6 @@
 # tag-cloud-frontend
+
+# Instructions
+* Install maven and java, if you don't already have it
+* Run the app with "mvn clean spring-boot:run"
+* The API is now available at localhost:8090
