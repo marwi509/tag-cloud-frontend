@@ -3,6 +3,8 @@ angular.module('tagcloud', [])
 
         $scope.host = 'http://localhost:8080';
         $scope.hideError = true;
+        $scope.tag = '#fun';
+        $scope.rss = 'https://www.avanza.se/forum/forum/rss/8';
 
         $scope.getUsingHashTag = function() {
             $http.get($scope.host + '/tag-cloud-twitter?source='+encodeURIComponent($scope.tag)).then(
